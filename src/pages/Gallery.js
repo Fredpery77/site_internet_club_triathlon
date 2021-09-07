@@ -223,6 +223,8 @@ const Gallery = () => {
         <div>
             <Header />
             <Navigation />
+            <br />
+            <br />
             <div className={model ? "model open" : "model"}>
                 <img src={tempimgSrc} />
                 <CloseIcon onClick={() => setModel(false)} />

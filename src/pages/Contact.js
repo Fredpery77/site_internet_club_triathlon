@@ -2,7 +2,6 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Header from "./Header";
 import { CopyToClipboard } from "react-copy-to-clipboard"
-import ContactForm from "./ContactForm";
 
 
 
@@ -13,7 +12,8 @@ const Contact = () => {
       <form className="contact">
         <Header />
         <Navigation />
-        <ContactForm />
+        <br />
+        <br />
         {/* contact form */}
         <div className="contact-infos">
           <div className="address">
