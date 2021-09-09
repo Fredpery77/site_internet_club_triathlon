@@ -1,0 +1,29 @@
+.navclub {
+    padding: 40px 80px;
+
+    h1 {
+padding-top: 40px;
+padding-bottom: 40px;
+    }
+}
+.h2 {
+    margin-bottom: 20px;
+    font-size: 0;
+}
+
+.touslesposts {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.post  {
+    width: 40%;
+    border: 2px solid;
+    border-radius: 30%;
+    background-color: $color-1;
+    justify-content: space-around;
+}
+.postimg {
+    width: 100%;
+    border-radius: 30%;
+}

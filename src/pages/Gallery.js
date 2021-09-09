@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from 'react'
 import CloseIcon from '@material-ui/icons/Close';
 import img1 from '../assets/troyes 2019 003.JPG'

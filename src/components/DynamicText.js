@@ -25,7 +25,9 @@ const DynamicText = () => {
     const loop = () => {
       setTimeout(() => {
         if (wordIndex >= array.length) {
+          // eslint-disable-next-line react-hooks/exhaustive-deps
           wordIndex = 0;
+          // eslint-disable-next-line react-hooks/exhaustive-deps
           letterIndex = 0;
           loop();
         } else if (letterIndex < array[wordIndex].length) {
