@@ -1,29 +1,60 @@
-.navclub {
+.navclub { 
     padding: 40px 80px;
-
-    h1 {
-padding-top: 40px;
-padding-bottom: 40px;
-    }
 }
+
+.h1 {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
 .h2 {
     margin-bottom: 20px;
     font-size: 0;
 }
 
 .touslesposts {
+    
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     
 }
 .post  {
-    width: 40%;
+    margin-top: 30px;
+    width: 58%;
     border: 2px solid;
     border-radius: 30%;
     background-color: $color-1;
     justify-content: space-around;
 }
 .postimg {
-    width: 100%;
+    width: 85%;
+    margin-left: 50px;
     border-radius: 30%;
+}
+.tableauhorairepiscine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+.table {
+    border-collapse: collapse;
+}
+
+.tr, th    {
+    text-align: center;
+    padding: 10px;
+    border: black 1px solid;
+    background: $color-1;
+    color: white;
+}
+
+.lienficheinscription {
+    color: rgb(74, 110, 167);
+    
+}
+.lienpageespacetri {
+    color: rgb(74, 110, 167);
 }

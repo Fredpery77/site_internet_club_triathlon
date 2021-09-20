@@ -73,139 +73,139 @@ const Gallery = () => {
             imgSrc: img6,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img7,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img8,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img9,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img10,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img11,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img12,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img13,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img14,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img15,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img16,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img17,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img18,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img19,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img20,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img21,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img22,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img23,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img24,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img25,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img26,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img27,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img28,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img29,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img30,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img31,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img32,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img33,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img34,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img35,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img36,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img37,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img38,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img39,
         },
         {
-            id:1,
+            id: 1,
             imgSrc: img40,
         }
 
@@ -240,11 +240,11 @@ const Gallery = () => {
                 })}
             </div>
         </div>
-            )
-    }
+    )
+}
 
 export default Gallery;
 
 
- 
-    
+
+

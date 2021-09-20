@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Redirect, Switch, Route } from "react-router-dom";
-import { bureau, licencier, reglement } from './pages/Votreclub';
+import { bureau, agenda, licencier, reglement } from './pages/Votreclub';
 import Home from './pages/Home';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
@@ -11,6 +11,7 @@ const App = () => {
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/bureau" exact component={bureau} />
+      <Route path="/agenda" exact component={agenda} />
       <Route path="/reglement" exact component={reglement} />
       <Route path="/licencier" exact component={licencier} />
       <Route path="/galerie-photos" exact component={Gallery} />

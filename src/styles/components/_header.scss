@@ -10,3 +10,19 @@
     width: 150px;
 }
 }
+@media (max-width: 991px){
+    .banner-container{
+        width: auto;
+    }
+    .logo {
+        width: auto;
+    }
+}
+@media (max-width: 480px){
+    .banner-container{
+        width: auto;
+    }
+    .logo {
+        width: auto;
+    }
+}

@@ -14,7 +14,7 @@
       border-radius: 50%;
       background: $color-1;
       top: -150px;
-      left: -160px;
+      left: -120px;
       z-index: -1;
       animation: navAnim 20s infinite alternate;
   
@@ -32,13 +32,13 @@
       }
     }
     .nav-active {
-      color: $color-3;
+      color: brown;
     }
     ul:hover li:not(:hover) {
-      opacity: .5;
+      opacity: .7;
     }
     ul:hover li:hover {
-      color: $color-3;
+      color: rgb(156, 93, 93);
     }
   
     .nav-votreclub {

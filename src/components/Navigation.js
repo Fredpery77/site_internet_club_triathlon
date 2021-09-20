@@ -14,6 +14,9 @@ const Navigation = () => {
                         <NavLink exact to="/bureau" className="hover" activeClassName="nav-active">
                             <li> Le bureau 2021 2022</li>
                         </NavLink>
+                        <NavLink exact to="/agenda" className="hover" activeClassName="nav-active">
+                            <li> Agenda</li>
+                        </NavLink>
                         <NavLink exact to="/reglement" className="hover" activeClassName="nav-active">
                             <li>Réglement intérieur</li>
                         </NavLink>
