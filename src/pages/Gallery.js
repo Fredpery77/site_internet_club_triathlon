@@ -43,6 +43,7 @@ import img39 from '../assets/IMG_0347basetorcy.JPG'
 import img40 from '../assets/IMG_0353basetorcy.JPG'
 import Navigation from '../components/Navigation'
 import Header from './Header'
+import Footer from './Footer'
 
 
 const Gallery = () => {
@@ -222,6 +223,7 @@ const Gallery = () => {
 
     return (
         <div>
+            
             <Header />
             <Navigation />
             <br />
@@ -239,6 +241,9 @@ const Gallery = () => {
                     )
                 })}
             </div>
+            <br />
+            <br />
+            < Footer />
         </div>
     )
 }

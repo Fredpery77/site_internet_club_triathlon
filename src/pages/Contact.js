@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Navigation from "../components/Navigation";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -93,8 +94,9 @@ const Contact = () => {
 
   return (
     <main>
-      <Navigation />
+     
       <Header />
+      <Navigation />
     
     <form className="contact-form">
       <h2>Contactez-nous</h2>
@@ -152,7 +154,11 @@ const Contact = () => {
       />
       <div className="form-message"></div>
     </form>
+    <br />
+    <br />
+    < Footer />
     </main>
+    
   );
 };
 

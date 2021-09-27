@@ -1,13 +1,17 @@
 .banner-container {
-    border-radius: 20px;
-    width: 1300px;
+    border-radius: 20px 20px 0 0;
     background-color: $color-1;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
 
 .logo {      
-    width: 150px;
+    width: 15%;
+}
+.photo {
+    width: 55%;
+    border-radius: 20px;
 }
 }
 @media (max-width: 991px){

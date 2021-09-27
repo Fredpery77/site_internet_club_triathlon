@@ -1,0 +1,11 @@
+.footer-container {
+    border-radius: 20px 20px;
+    width: 100%;
+    background-color: $color-1;      
+}
+.namefooter {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
