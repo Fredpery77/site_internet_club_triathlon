@@ -6,9 +6,12 @@
 .navigation {
     border-radius: 0 0 20px 20px;
     width: 100%;
-    background-color: $color-1;
+    background-color: $color-4;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.nav-pills .nav-link.active {
+    background-color: #8ebedd!important;
 }

@@ -1,11 +1,30 @@
 .footer-container {
     border-radius: 20px 20px;
     width: 100%;
-    background-color: $color-1;      
+    background-color: $color-1;
+    color: white;      
 }
 .namefooter {
+    color: white;
     padding-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+.fas {
+    color: white;
+    padding-left: 20px;
+}
+#back-top {
+    color: white;
+}
+@media (max-width: 991px){
+.namefooter p {
+    font-size: smaller;
+    }
+}
+@media (max-width: 480px){
+.namefooter  {
+    font-size: small;
+    }
 }

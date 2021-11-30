@@ -3,8 +3,8 @@
   max-width: 50%;
   max-width: 350px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 1px solid #18dcff;
-  background: $color-1;
+  border: 1px solid #48995a;
+  background: $color-4;
   padding: 0 30px 10px;
   box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.637);
 }
@@ -21,12 +21,12 @@ textarea {
   background: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1rem;
-  border-bottom: 1px solid#d8d086;
+  border-bottom: 1px solid black;
   color: $color-2;
 }
 input::placeholder, 
 textarea::placeholder {
- color: black;
+ color: whitesmoke;
 }
 input,
 .email-content,
@@ -47,7 +47,7 @@ input {
   display: none;
   position: absolute;
   top: 4px;
-  color: #ff4d4d;
+  color: #e73a24;
   right: 0;
   transform-origin: 50% 50%;
 }
@@ -103,7 +103,7 @@ textarea {
   letter-spacing: 2px;
 }
 .error::placeholder {
-  color: #ff4d4d;
+  color: #000000;
 }
 .form-message {
   margin-top: 10px;
