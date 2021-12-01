@@ -12,7 +12,7 @@ const Resultats = () => {
             <div>
                 <br />
                 <h1>Tous les résultats de l'année 2021</h1>
-                <h2>Triathlon de la Baule 2021</h2>
+                <h3>Triathlon de la Baule 2021</h3>
                 <br />
                 <table border="1" align="center" className="table table-striped table-sm table-responsive">
                     <thead>
@@ -71,7 +71,7 @@ const Resultats = () => {
             </div>
             <div>
                 <br />
-                <h2>Triathlon de Saint Jean de Monts 2021</h2>
+                <h3>Triathlon de Saint Jean de Monts 2021</h3>
                 <br />
                 <table border="1" align="center" className="table table-striped table-sm table-responsive">
                     <thead>
@@ -134,7 +134,7 @@ const Resultats = () => {
             </div>
             <div>
                 <br /> 
-                <h2>Boffi Fifty Festival des Templiers Millau Trail'Origin 2021</h2>
+                <h3>Boffi Fifty Festival des Templiers Millau Trail'Origin 2021</h3>
                 <br />
                 <table border="1" align="center" className="table table-striped table-sm table-responsive">
                     <thead>
@@ -172,7 +172,7 @@ const Resultats = () => {
             </div>
             <div>
                 <br /> 
-                <h2>Les Bacchantes Paris 2021</h2>
+                <h3>Les Bacchantes Paris 2021</h3>
                 <br />
                 <table border="1" align="center" className="table table-striped table-sm table-responsive">
                     <thead>
@@ -205,7 +205,7 @@ const Resultats = () => {
             </div>
             <div>
                 <br /> 
-                <h2>Les Foulées Nanteuillaises 2021</h2>
+                <h3>Les Foulées Nanteuillaises 2021</h3>
                 <br />
                 <table border="1" align="center" className="table table-striped table-sm table-responsive">
                     <thead>
@@ -241,7 +241,7 @@ const Resultats = () => {
             </div>
             <div>
                 <br /> 
-                <h2>EcoTrail 30 km 2021</h2>
+                <h3>EcoTrail 30 km 2021</h3>
                 <br />
                 <table border="1" align="center" className="table table-striped table-sm table-responsive">
                     <thead>

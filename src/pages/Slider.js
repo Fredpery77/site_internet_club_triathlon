@@ -40,7 +40,7 @@ function Slider() {
                 <div key={slide.id}>
                     <img src={slide.image} alt="" />
                     <div className="overlay">
-                        <h2 className="overlay_title">{slide.title}</h2>
+                        <h1 className="overlay_title">{slide.title}</h1>
                         <p className="overlay_text">{slide.text}</p>
                     </div>
                 </div>
